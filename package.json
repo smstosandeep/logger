@@ -1,6 +1,6 @@
 {
   "name": "sandy-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For colored console logging",
   "main": "dist/index.js",
   "types": "lib/index.d.ts",
