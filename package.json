@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "sandy-logger",
   "version": "1.0.0",
   "description": "For colored console logging",
   "main": "dist/index.js",

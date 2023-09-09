@@ -1,23 +1,15 @@
-# Logger
+# sandy-logger
+A console logger for different type of messages i.e. warnning, error, success and info etc.
 
-Create a new folder
-git init
-create git repo
-git remote add origin https://github.com/smstosandeep/logger.git
-git remote -v
+### Usage
 
-create readme.md for git
+```
+import { Logger } from 'sandy-logger';
 
-push to git fi a test
 
-npm init
+Log.error('something went wrong');
+Log.warn('check you back!');
+Log.info('Great !!');
 
-create .gitignore
 
-npm install --save-dev @types/node @types/react @types/react-dom react react-dom typescript
-
-create src=>component=>logger.ts
-src=>index.ts
-export in index.ts
-
-tsc --init
+```
