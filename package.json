@@ -1,0 +1,40 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "For colored console logging",
+  "main": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smstosandeep/logger.git"
+  },
+  "keywords": [
+    "color",
+    "Sandeep",
+    "Sirohi",
+    "logger",
+    "log",
+    "console"
+  ],
+  "author": "Sandeep Sirohi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smstosandeep/logger/issues"
+  },
+  "homepage": "https://github.com/smstosandeep/logger#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
