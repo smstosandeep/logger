@@ -2,11 +2,15 @@
   "name": "sandy-logger",
   "version": "1.0.1",
   "description": "For colored console logging",
-  "main": "dist/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": " npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
   "repository": {
     "type": "git",
@@ -34,7 +38,8 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
   },
-  "files": [
-    "dist/**/*"
-  ]
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }

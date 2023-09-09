@@ -1,1 +1,1 @@
-export * from './component/logger'
+export * from './component';
